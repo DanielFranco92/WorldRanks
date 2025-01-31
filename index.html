@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Bona+Nova&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="navigation">
+            <div class="navigation__container">
+                <img class="navigation__img" src="./img/Logo.svg" alt="logo">
+            </div>
+        </div>
+    
+        <div class="countries container">
+            <div class="found">
+                <h2 class="found__heading">Found 234 countries</h2>
+                <div class="found__container">
+                    <img class="found__search" src="/img/Search.svg" alt="search">
+                    <input type="text" class="found__input" name="search" id="search" placeholder="Search by Name, Region, Subregion">
+                </div>
+            </div>
+    
+            <div class="flex__container">
+                <div class="filter">
+                    <label class="filter__label" for="sort">Sort by</label>
+                    <select class="filter__option" id="sort">
+                        <option value="name">Name</option>
+                        <option value="population" selected>Population</option>
+                        <option value="area">Area</option>
+                    </select>
+                    <label class="filter__label">Region</label>
+                    <div class="filter__container">
+                        <input type="button" class="filter__boton--active" value="Americas" id="americas">
+                        <input type="button" class="filter__boton" value="Antarctic" id="antarctic">
+                        <input type="button" class="filter__boton--active" value="Africa" id="africa">
+                        <input type="button" class="filter__boton--active" value="Asia" id="asia">
+                        <input type="button" class="filter__boton--active" value="Europe" id="europe">
+                        <input type="button" class="filter__boton" value="Oceania" id="oceania">
+                    </div>
+                    <label class="filter__label">Status</label>
+                    <div class="filter__check">
+                        <input type="button" class="filter__checkbox" id="member">
+                        <label for="member" class="filter__status">Member of the United Nations</label>
+                    </div>
+                    <div class="filter__check">
+                        <input type="button" class="filter__checkbox--active" id="independent" checked>
+                        <label for="independent" class="filter__status">Independent</label>
+                    </div>
+                </div>
+    
+                <div class="country">
+                    <div class="country__heading">
+                        <label class="country__label">Flag</label>
+                        <label class="country__label">Name</label>
+                        <label class="country__label">Population</label>
+                        <label class="country__label">Area&nbsp;(km²)</label>
+                        <label class="country__label--none">Region</label>
+                    </div>
+
+                    <p class="country__error">Hubo un error. Intente mas tarde.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
