@@ -38,13 +38,14 @@
 
 ## Overview
 
-![image](https://github.com/user-attachments/assets/91ea401e-8594-4320-986b-cd3fa7bc5bb1)
+![image](https://github.com/user-attachments/assets/0df4d0d7-8476-460b-b81d-351177574d5a)
 
 This CSS demonstrates your knowledge of:
 
 1. Modern CSS features (variables, flexbox, grid, responsiveness).
 2. Organized, reusable code structure.
 3. Creating flexible and visually appealing designs.
+4. Javascript modern
 
 
 ### What I learned
@@ -59,6 +60,9 @@ This CSS demonstrates your knowledge of:
 8. Visual Effects
 9. Section Organization
 10. Interactive Buttons
+11. DOM JS
+12. FETCH API
+13. ASYC AWAIT
 
 ### Useful resources
 
